@@ -1,6 +1,6 @@
 
 class docker::install {
-  package "docker" {
+  package { 'docker':
     ensure => present,
   }
 }
